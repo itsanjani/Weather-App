@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!---------------meta tag for responsive------------------>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather in App</title>
+
+    <!-----------------bootstrap 5 file link------------------>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!---------------------external css link----------------->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!--------------------font awesome icon cdn link-------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" integrity="sha512-9my9Mb2+0YO+I4PUCSwUYO7sEK21Y0STBAiFEYoWtd2VzLEZZ4QARDrZ30hdM1GlioHJ8o8cWQiy8IAb1hy/Hg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+<body>
+
+  <!---------------------background video link---------------->
+  <video id="background-video" autoplay loop muted pause="img/bg.mp4" >
+    <source src="img/bg.mp4" type="video/mp4">
+  </video>
+
+  <!-------------------------navbar section----------------------------->
+    <nav class="navbar navbar-expand-lg bg-none navbar-light p-1">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/lOGO.png" alt="logo" class="img-fluid"><span>Weather-in</span>
+        </a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar2">
+          <span class="navbar-toggler-icon"></span>
+        </button>  
+    
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar2">
+          <ul class="navbar-nav text-capitalize">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+            <li class="nav-item"><a class="nav-link" href="news.html">news</a></li>
+            <li class="nav-item"><a class="nav-link" href="search.html" target="blank"><i class="fas fa-search mx-2"></i></a></li>
+          </ul>  
+        </div>  
+      </div>
+    </nav>
+
+  <!----------------------------content section------------------------>
+    <div class="content">
+      <div class="container">
+        <h2>wanna go out, let's check the weather to make your trip amazing and memorable</h2>
+        <div class="button col-md-4 col-lg-2 col-sm-6 mx-auto d-flex mt-4">
+          <a class="btn btn-outline-dark" href="search.html" target="blank" role="button">Check Weather<i class="fas fa-search mx-2"></i> </a>
+        </div>
+      </div>
+    </div>
+
+    
+  <!------------------------script files------------------->
+  <script src="js/index.js"></script>
+  <script src="js/request.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+<body>
+</html>
